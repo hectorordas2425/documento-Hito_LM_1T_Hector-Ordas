@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    background-color:aqua;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:yellow; 
+    color: #e40f0f; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #dd0a0a; /* Blanco */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Estilos específicos para el currículum */
+.curriculum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.columna {
+    flex: 1;
+    min-width: 280px;
+}
+
+.izquierda, .derecha {
+    max-width: 30%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2 {
+    border-bottom: 2px solid #34495e; 
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+.video_presentacion {
+    text-align: center;
+}
+
+.video_presentacion h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.video_presentacion video{
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
